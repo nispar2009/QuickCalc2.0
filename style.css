@@ -1,0 +1,41 @@
+body#doc {
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-desktop {
+    font-size: large !important;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+body#doc.dark .nav-desktop {
+    background-color: #4f4f4f;
+    color: dodgerblue;
+}
+
+body#doc.dark {
+    background-color: #242424;
+    color: white;
+}
+
+.material-symbols-rounded {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    user-select: none;
+}
+
+body#doc.dark .material-symbols-rounded {
+    border-color: dodgerblue;
+}
+
+.nav-desktop {
+    text-align: right;
+}
