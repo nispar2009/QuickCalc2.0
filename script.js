@@ -57,7 +57,4 @@ submit = () => {
     lhs = getInput('lhs')
     rhs = getInput('rhs')
     document.getElementById('solution').innerHTML = solve(lhs, rhs)
-
-    document.getElementById('lhs').value = ""
-    document.getElementById('rhs').value = ""
 }
